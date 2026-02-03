@@ -1,0 +1,542 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="JAFFAR AGENCY MAA GROUP: Authorized Dealer of JK Tyres, SJR Tyres & MRU Tubes. Trusted tyre & tube dealer in Holenarsipura, Hassan, Karnataka. Genuine products, best prices, fast service.">
+    <meta name="keywords" content="JK Tyres, SJR Tyres, MRU Tubes, Tyre Dealer Hassan, Tyre Shop Karnataka, Car Tyres, Bike Tyres">
+    <meta property="og:title" content="JAFFER AGENCY MAA GROUP | Tyre & Tube Dealer">
+    <meta property="og:description" content="Authorized dealer for JK Tyres, SJR Tyres & MRU Tubes in Hassan. Genuine tyres, best prices, expert guidance.">
+    <meta property="og:image" content="https://via.placeholder.com/1200x630?text=Jaffer+Agency+Tyre+Shop">
+    <meta property="og:url" content="https://www.jafferagency.com">
+    <title>JAFFAR AGENCY | MAA GROUP | Trusted Tyre & Tube Dealer in Hassan</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial,Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        h1, h2, h3 {
+            color: white;
+        }
+
+        h2 {
+            color: #007bff; /* Blue accent */
+        }
+
+        .btn {
+            background-color: #007bff; /* Yellow */
+            color: #000;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            transition: background-color 0.3s;
+            border: none;
+            cursor: pointer;
+        }
+
+            .btn:hover {
+                background-color: #FFC107;
+            }
+
+        .whatsapp-btn {
+            background-color: #25D366;
+            color: white;
+        }
+
+            .whatsapp-btn:hover {
+                background-color: #128C7E;
+            }
+
+        .call-btn {
+            background-color: #007bff;
+            color: white;
+        }
+
+            .call-btn:hover {
+                background-color: #0056b3;
+            }
+
+        section {
+            padding: 60px 0;
+            background-color: white;
+        }
+
+            section:nth-child(even) {
+                background-color: #f8f9fa;
+            }
+
+        /* Header & Navigation */
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #000;
+            color: white;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+        .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+            .nav-links li {
+                margin: 0 15px;
+            }
+
+            .nav-links a {
+                color: white;
+                text-decoration: none;
+                transition: color 0.3s;
+            }
+
+                .nav-links a:hover {
+                    color: #007bff;
+                }
+
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+        }
+
+            .hamburger div {
+                width: 25px;
+                height: 3px;
+                background-color: white;
+                margin: 4px 0;
+                transition: 0.3s;
+            }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                position: fixed;
+                left: -100%;
+                top: 70px;
+                flex-direction: column;
+                background-color: #000;
+                width: 100%;
+                text-align: center;
+                transition: 0.3s;
+                box-shadow: 0 10px 27px rgba(0,0,0,0.05);
+            }
+
+                .nav-links.active {
+                    left: 0;
+                }
+
+            .hamburger {
+                display: flex;
+            }
+        }
+
+        /* Hero Section */
+        .hero {
+            height: 100vh;
+            background-image: url(https://media.istockphoto.com/id/1332478606/photo/a-new-tire-is-placed-on-the-tire-storage-rack-in-the-car-workshop-be-prepared-for-vehicles.jpg?s=612x612&w=0&k=20&c=7KwjCTiceXsGm0vgJCGbJLPZxfjRjOuIcSOOSxQ6mvk=); /* Placeholder for tyre background */
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            position: relative;
+        }
+
+            .hero::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: rgba(0, 0, 0, 0.6);
+            }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+
+        .hero .buttons {
+            margin-top: 20px;
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2em;
+            }
+
+            .hero .buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+        /* About Us */
+        .about {
+            text-align: center;
+        }
+
+            .about img {
+                max-width: 100%;
+                height: auto;
+                margin: 20px 0;
+            }
+
+        /* Products */
+        .products .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .product-card {
+            border: 1px solid #ddd;
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px;
+            background-color: white;
+        }
+
+            .product-card img {
+                max-width: 150px;
+                height: auto;
+                margin-bottom: 20px;
+            }
+
+            .product-card ul {
+                list-style: none;
+                padding: 0;
+                text-align: left;
+            }
+
+            .product-card li {
+                margin: 10px 0;
+            }
+
+        /* Why Choose Us */
+        .why-choose .features {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .feature {
+            text-align: center;
+            width: 200px;
+            margin: 20px;
+        }
+
+            .feature i {
+                font-size: 3em;
+                color: #007bff;
+                margin-bottom: 10px;
+            }
+
+        /* Contact & Location */
+        .contact {
+            text-align: center;
+        }
+
+            .contact iframe {
+                width: 100%;
+                height: 300px;
+                border: none;
+                margin: 20px 0;
+            }
+
+        /* Contact Form */
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9fa;
+            border-radius: 5px;
+        }
+
+            .contact-form input, .contact-form textarea {
+                width: 100%;
+                padding: 10px;
+                margin: 10px 0;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+
+            .contact-form button {
+                width: 100%;
+            }
+
+        /* Floating Buttons */
+        .floating-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 24px;
+            text-decoration: none;
+            z-index: 1000;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        }
+
+        .whatsapp-floating {
+            background-color: #25D366;
+            bottom: 90px;
+        }
+
+        .call-floating {
+            background-color: #007bff;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+            footer .social-icons {
+                margin-top: 10px;
+            }
+
+                footer .social-icons a {
+                    margin: 0 10px;
+                    color: white;
+                    font-size: 24px;
+                }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .products .grid {
+                grid-template-columns: 1fr;
+            }
+
+            .why-choose .features {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <nav class="container">
+            <div class="logo">JAFFAR AGENCY</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#why-choose">Why Choose Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero / Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>JAFFAR AGENCY</h1>
+            <h2>MAA GROUP </h2>
+            <p>Authorized JK Tyres Dealer | SJR Tyres | MRU Tubes</p>
+            <div class="buttons">
+                <a href="tel:+919482860815" class="btn call-btn">Call Now</a>
+                <a href="https://wa.me/919482860815" class="btn whatsapp-btn">Get Quote / Order on WhatsApp</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about container">
+        <h2>About Us</h2>
+        <p>Jaffer Agency is a leading authorized distributor of JK Tyres, specializing in tyre sales and distribution. With years of experience in the industry, we serve retail customers, transport companies, fleet owners, and workshop</p>
+        <p>Our partnership with JK Tyres ensures we provide genuine, high-quality products backed by expert guidance and reliable service.</p>
+        <img src="https://lh3.googleusercontent.com/p/AF1QipOH_tRWIOL407q_iZDzRjO5VYfjq97DjvZOegOG=s1360-w1360-h1020-rw" alt="Jaffer Agency Shop"> <!-- Placeholder for shop image -->
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products container">
+        <h2>Our Products</h2>
+        <div class="grid">
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsAtVpclUyX7qiYXpi_hcEvOBMUEdA0n-2Dw&s" alt="JK Tyres Logo"> <!-- Placeholder for JK Tyres logo -->
+                <h3>JK TYRES</h3>
+                <ul>
+                    <li>Two-wheeler tyres</li>
+                    <li>Auto rickshaw tyres</li>
+                    <li>Road tyres</li>
+                </ul>
+                <a href="https://wa.me/919482860815?text=Hello%20Jaffer%20Agency%2C%20I%20want%20to%20order%20JK%20Tyres" class="btn whatsapp-btn">Order on WhatsApp</a>
+            </div>
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYaPWf1HNPzQa4gsYNYeE3P1Lp_14GDbkr3w&s"alt="SJR Tyres Logo"> <!-- Placeholder for SJR Tyres logo -->
+                <h3>SJR TYRES</h3>
+                <ul>
+                    <li>Two-wheeler tyres</li>
+                    <li>Auto rickshaw tyres</li>
+                    <li>Road tyres</li>
+                </ul>
+                <a href="https://wa.me/919482860815?text=Hello%20Jaffer%20Agency%2C%20I%20want%20to%20order%20SJR%20Tyres" class="btn whatsapp-btn">Order on WhatsApp</a>
+            </div>
+            <div class="product-card">
+                <img src="https://4.imimg.com/data4/XL/AS/ANDROID-37493123/product-500x500.jpeg" alt="MRU Logo"> <!-- Placeholder for MRU logo -->
+                <h3>MRU TUBES (Mahalaxmi Rubber Udyog)</h3>
+                <ul>
+                    <li>Auto tubes</li>
+                    <li>Two-wheeler tubes</li>
+                </ul>
+                <a href="https://wa.me/919482860815?text=Hello%20Jaffer%20Agency%2C%20I%20want%20to%20order%20MRU%20Tubes" class="btn whatsapp-btn">Order on WhatsApp</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why-choose" class="why-choose">
+        <div class="container">
+            <h2 class="section-title">Why Choose Us</h2>
+            <div class="features">
+                <div class="feature">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Genuine JK Tyres</h3>
+                    <p>Authentic products with warranty.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-tags"></i>
+                    <h3>Competitive Pricing</h3>
+                    <p>Affordable rates without compromising quality.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-user-friends"></i>
+                    <h3>Expert Guidance</h3>
+                    <p>Professional advice for the right tyre choice.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-truck"></i>
+                    <h3>Reliable Service</h3>
+                    <p>Timely delivery and support.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact & Location Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p><i class="fas fa-phone"></i> Phone: +919482860815</p>
+                    <p><i class="fas fa-envelope"></i> Email: info@jafferagency.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Address: near star roadline holenarsipur,hassan 573211</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.123456789012!2d76.123456789!3d12.987654321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba4b1234567890%3A0x123456789abcdef!2sHolenarsipura%2C%20573211%2C%20Hassan%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe> <!-- Embedded Google Maps using the provided link -->
+                    <div class="contact-form">
+                        <h3>Get in Touch</h3>
+                        <form id="contactForm">
+                            <input type="text" id="name" placeholder="Name" required>
+                            <input type="email" id="email" placeholder="Email" required>
+                            <input type="tel" id="phone" placeholder="Phone Number" required>
+                            <textarea id="message" placeholder="Tyre Requirement / Message" rows="5" required></textarea>
+                            <button type="submit" class="btn whatsapp-btn">Send via WhatsApp</button>
+                        </form>
+                    </div>
+    </section>
+
+    <!-- Floating Action Buttons -->
+    <a href="https://wa.me/919482860815" class="floating-btn whatsapp-floating"><i class="fab fa-whatsapp"></i></a>
+    <a href="tel:+919482860815" class="floating-btn call-floating"><i class="fas fa-phone"></i></a>
+
+    <!-- Footer -->
+    <footer>
+        <p>© Jaffer Agency – MAA GROUP | Trusted Tyre & Tube Dealer in Hassan</p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
+<script>
+function toggleMenu() {
+    document.querySelector('.nav-links').classList.toggle('active');
+}
+
+document.querySelectorAll('.nav-links a').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href'))
+            .scrollIntoView({ behavior: 'smooth' });
+        document.querySelector('.nav-links').classList.remove('active');
+    });
+});
+
+document.getElementById('contactForm').addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const phone = document.getElementById('phone').value;
+    const message = document.getElementById('message').value;
+
+    const whatsappMessage =
+        Name: ${name}%0AEmail: ${email}%0APhone: ${phone}%0AMessage: ${message};
+
+    window.open(
+        https://wa.me/919845882784?text=${whatsappMessage},
+        '_blank'
+    );
+});
+</script>
